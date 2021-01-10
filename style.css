@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Spartan&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFBA08;
+  background-color: #1E1E24;
+  font-family: 'Permanent Marker', Tahoma, sans-serif;
+}
+
+header h1 {
+  font-size: 5em;
+}
+
+header h2 {
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Spartan', Tahoma, sans-serif;
+}
+
+.main-title {
+  background-color: #1E1E24;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 3fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  font-family: 'Permanent Marker', Tahoma, sans-serif;
+}
+
+a {
+  color: #1E1E24;
+}
+
+a:hover {
+  color: #A43312;
+  background-color: #1E1E24;
+}
+
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-headline-0 { 
+  grid-column: 1/4;
+  text-align: center;
+  height: 75px;
+}
+
+.home-paragraph-0 {
+  grid-column:1/4;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 1em;
+  height: 55px;
+}
+
+div ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.facebook{
+  grid-column: 1/2;
+}
+
+.instagram{
+  grid-column: 2/3;
+}
+
+.youtube{
+  grid-column: 3/4;
+}
+
+.copy {
+  color: #1E1E24;
+}
+
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*why should i css*/
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+  grid-gap: 1em;
+}
+
+.why-headline-0 {
+  grid-column: 1/5;
+  text-align: center;
+  grid-row: 1/2;
+}
+
+.why-headline-1 {
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+.reasons-why {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.why-img-top {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+.why-img-ctr{
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.why-img-bottom{
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+.why-img-top,
+.why-img-ctr,
+.why-img-bottom{
+  padding: 10px;
+}
+
+.why-paragraph-0{
+  grid-column: 3/5;
+  grid-row: 3/6;
+}
+
+.the-ten-commandments{
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.commands-1-5 {
+  grid-column: 1/3;
+  grid-row: 7/8;
+}
+
+.commands-6-10 {
+  grid-column: 3/5;
+  grid-row: 7/8;
+}
+
+strong {
+  color: #FFBA08;
+  background-color: #1E1E24;
+}
+
+/*form css*/
+
+form {
+  color: #FFBA08;
+  background-color: #1E1E24;
+  font-family: 'Permanent Marker', Tahoma, sans-serif;
+}
