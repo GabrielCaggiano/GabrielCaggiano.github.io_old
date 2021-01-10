@@ -48,10 +48,14 @@ a:hover {
   grid-column: 1/4;
   text-align: Left;
   height: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .self-photo {
     float: right;
+    box-shadow: 10px 10px 5px grey;
 }
 
 nav ul {
@@ -66,7 +70,9 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1em;
-  height: 55px;
+  color: #FFBA08;
+  background-color: #1E1E24;
+  font-family: 'Permanent Marker', Tahoma, sans-serif;
 }
 
 .last-modified {
@@ -80,8 +86,7 @@ div ul{
 }
 
 .copy {
-  grid-row: 1/2;  
-  color: #1E1E24;
+  grid-row: 1/2;
 }
 
 #content {
