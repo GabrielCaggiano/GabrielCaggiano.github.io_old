@@ -28,7 +28,9 @@ p {
   align-items: center;
 }
 
-
+a {
+    color: #1E1E24;
+}
 
 p a {
   color: #FFBA08;
