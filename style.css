@@ -55,7 +55,7 @@ a:hover {
 
 .self-photo {
     float: right;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 5px #FFBA08;
 }
 
 nav ul {
