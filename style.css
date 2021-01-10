@@ -28,13 +28,7 @@ p {
   align-items: center;
 }
 
-nav ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-  font-family: 'Permanent Marker', Tahoma, sans-serif;
-}
+
 
 a {
   color: #1E1E24;
@@ -47,12 +41,12 @@ a:hover {
 
 .home-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .home-headline-0 { 
   grid-column: 1/4;
-  text-align: center;
+  text-align: Left;
   height: 75px;
 }
 
@@ -60,11 +54,23 @@ a:hover {
     float: right;
 }
 
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    font-family: 'Permanent Marker', Tahoma, sans-serif;
+  }
+
 footer {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   grid-gap: 1em;
   height: 55px;
+}
+
+.last-modified {
+  grid-row: 2/3;
 }
 
 div ul{
@@ -74,6 +80,7 @@ div ul{
 }
 
 .copy {
+  grid-row: 1/2;  
   color: #1E1E24;
 }
 
