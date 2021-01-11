@@ -36,7 +36,7 @@ nav ul a {
 nav ul {
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
     font-family: 'Permanent Marker', Tahoma, sans-serif;
   }
