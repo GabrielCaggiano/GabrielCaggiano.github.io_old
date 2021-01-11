@@ -54,8 +54,6 @@ p a {
 .chapter-heading {
     padding: 10px;
 }
-    
-
 
 footer {
   display: grid;
@@ -75,14 +73,6 @@ footer {
   grid-row: 2/3;
   text-align: center;
 }
-
-div ul{
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-
 
 #content {
   max-width: 1000px;
