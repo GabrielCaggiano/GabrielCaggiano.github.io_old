@@ -34,9 +34,6 @@ nav ul a {
 
 nav ul {
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
     font-family: 'Permanent Marker', Tahoma, sans-serif;
   }
 
@@ -49,21 +46,16 @@ p a {
   color: #FFBA08;
 }
 
-
-
-/* .home-grid{
-  display: grid;
-  grid-template-columns: 1fr;
-}*/
-
-.home-headline-0 { 
-  grid-column: 1/4;
-  text-align: Left;
-  height: 75px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+.part-heading {
+    text-align: center;
+    padding: 10px 10px 0px 10px;
 }
+
+.chapter-heading {
+    padding: 10px 10px 0px 10px;
+}
+    
+
 
 footer {
   display: grid;
