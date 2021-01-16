@@ -1,7 +1,0 @@
-@media (min-width: 16em) {
-
-.main-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-       } 
- }
