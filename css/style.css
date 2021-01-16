@@ -39,6 +39,7 @@ p a {
 a:hover {
   color: #A43312;
   background-color: #1E1E24;
+  padding: 5px 0px 5px 5px;
 }
 
 .home-grid{
