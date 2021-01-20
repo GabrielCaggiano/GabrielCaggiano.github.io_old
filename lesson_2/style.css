@@ -1,4 +1,4 @@
-      h1 {
+      h1 h2 {
         text-align: center;
       }
       img {
@@ -7,7 +7,7 @@
       
       .main-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
        } 
       
       main div {
@@ -17,23 +17,7 @@
         background-color: white;
         overflow: hidden;
       }
-      
-      .rule-of-thirds{
-      grid-column: 1/2;
-     
-      }
-      
-      .white-space-clean{
-      grid-column: 2/3;
-     
-      }
-      
-      .hicks-law{
-      grid-column: 3/4;
-       
-      }
-      
-      
+
       p {
         font-family: arial, sans-serif;
         padding: 1em;
@@ -48,9 +32,14 @@
         font-size: .75em;
       }
 
-      a {
+      .site-url {
        text-align: center;
-        }       
+       display: block;
+        }
+        
+      img {
+        width: 100%
+      }
         
                
                
