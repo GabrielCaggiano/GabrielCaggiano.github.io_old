@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Rock+Salt&display=swap');
+
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+.main-title {
+    background-color: #321325;
+    justify-items: center;
+    align-items: center;
+  }
+
+header h1 {
+    font-size: 5em;
+    font-family: 'Rock Salt', cursive, sans-serif;
+    color: #EFF1ED;
+    background-color: #321325;
+  }
+
+  h2, h3, h4, h5, h6 {
+      font-size: 2em;
+      font-family: 'Raleyway', tahome, sans-serif;
+  }
+
+  nav ul {
+      background-color: #321325;
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1em;
+
+  }

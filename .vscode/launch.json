@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://GabrielCaggiano.github.io/lesson_2/design-principles.html",
+            "url": "https://GabrielCaggiano.github.io/lesson3/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
