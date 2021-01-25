@@ -37,7 +37,7 @@ header h1 {
       background-color: #EFF1ED;
       list-style: none;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-gap: 1em;
       padding: 1em;
   }
