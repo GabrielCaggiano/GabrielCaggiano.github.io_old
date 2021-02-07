@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>WDD 230 Weather Website | Gabriel Caggiano | BYU-Idaho</title>
+    <meta name="description" content="This is the home page for Preston, Idaho.">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/currentDate.js" async></script>
+    <script src="js/hamburger.js" async></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-box">
+            <img class="weather-logo" src="images/lightningLoungeLogo.webp" alt="Lightning Lounge logo">
+            <section class="headings">
+                <h1>Lightning Lounge</h1>
+                <h2>Come ride the Lightning!</h2>
+            </section>
+        </div>
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main class="grid-container">
+        <h2>Preston, Idaho</h2>
+        <section>
+            <div class="weather-summary">
+                <h3>Weather Summary</h3>               
+            </div>
+        </section>
+        <section>
+            <div class="forcast">
+                <h3>5-day Forecast</h3>
+            </div>
+        </section>
+        <section>
+            <div class="article-info">
+                <h3>Article</h3>
+            </div>
+        </section>
+        <section>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; The Lightning Lounge | Gabriel Caggiano 
+        </p>
+        <div class="Date">
+            <span id="currentDate"></span>
+        </div>
+    </footer>
+</body>
+</html>

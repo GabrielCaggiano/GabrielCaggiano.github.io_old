@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Rock+Salt&display=swap');
+
+body {
+    background-color: #F3F6F7;
+    font-size: 16px; 
+    line-height: 30px;
+    font-family: "Roboto", "Times New Roman", serif;
+    text-align: center;
+    background-color: #134611;
+}
+
+nav button {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: "Raleway", Tahoma, sans-serif;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #EFF1ED;
+    overflow: hidden;
+}
+  
+nav ul {
+    font-family: "Raleway", Tahoma, sans-serif;
+    list-style: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+    
+nav ul li a {
+    font-family: "Raleway", Tahoma, sans-serif;
+    display: block;
+    color: #EFF1ED;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95em;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav button:hover {
+    background-color: #EFF1ED;
+    color: #321325;
+}
+
+nav a:hover {
+    background-color: #EFF1ED;
+    color: #321325;
+}
+
+
+header {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background: #321325;
+}
+  
+.weather-logo {
+    margin: 0.5em;
+    padding: 0.2em;
+    max-width: 50px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Rock Salt', cursive, sans-serif;
+    color: #EFF1ED;
+    background-color: #321325;
+    margin-bottom: 0;
+}
+  
+h2 {
+    font-family: 'Raleway', tahoma, sans-serif;
+    background-color: #321325;
+    color: #EFF1ED;
+    text-align: center;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1em;
+    color: #EFF1ED;
+    font-family: 'Raleway', tahoma, sans-serif;
+}
+p {
+    font-size: 16px;
+    margin: 10px;
+}
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    background-color:#134611 ;
+}
+  
+main section {
+    border-radius: 5px;
+    margin: 20px;
+    background-color: #321325;
+}
+.weather-summary { 
+    grid-column: 1/2;
+}
+.forcast {
+    grid-column: 1/2;
+}
+.article-info {
+    grid-column: 1/2;
+}
+.contact-info {
+    grid-column: 1/2;
+}
+  
+footer {
+    font-family: 'Raleway', tahoma, sans-serif;
+    background-color: #321325;
+    color: #EFF1ED;
+    font-size: smaller;
+    text-align: center;
+    color: #F3F6F7;
+    padding: 15px 5px 15px;
+    width: 100%;
+    margin: 0;
+}
+footer p {
+    color: #F3F6F7;
+}

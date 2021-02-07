@@ -1,0 +1,42 @@
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr;
+	}
+    
+    .weather-logo {
+        max-width: 100px;
+    }
+    nav a {
+        color: #EFF1ED;
+        text-decoration: none;
+        padding: 1%;
+        font-size: 1.1rem;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul { 
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.6em;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+    nav ul li a { 
+        border: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+    .logo-box {
+        border: none;
+    }
+    h1 {
+        font-size: 2.7em;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
