@@ -43,25 +43,35 @@
         font-size: 18px;
     }
 
-    .hero-box {
-        position: relative;
+    .hero-div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+    .week6hero {
+        grid-column: 1 / -1;
+        grid-row: 1;
     }
-    .weather-summary {
-        display: block;
-        position: absolute;
-        background-color: rgba(240, 240, 240, 0.8);
-        padding: 20px;
-        top: 20px;
-        left: 12rem;
+
+    .summary {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(50, 19, 37, .6);
+        margin: 3em;
+        padding: 1em;
         text-align: left;
-        list-style-type: none;
+        font-size: 0.9em;
+        max-width: 220px;
     }
+
+    
+    
     .wSum {
         margin: 0;
     }
-    .weather-summary-sm {
-        display: none;
-    }
+   
+    
     table {
         width: 100%;
         margin: 20px;

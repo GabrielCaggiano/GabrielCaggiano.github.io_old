@@ -105,11 +105,16 @@ h3 {
     font-size: 1em;
     color: #EFF1ED;
     font-family: 'Raleway', tahoma, sans-serif;
+    margin: 0;
 }
 p {
     font-size: 16px;
     margin: 10px;
     color: #EFF1ED;
+}
+
+.hero-div img {
+    width: 100%;
 }
   
 .grid-container {
@@ -124,8 +129,17 @@ main section {
     margin: 20px;
     background-color: #321325;
 }
-.weather-summary { 
-    grid-column: 1/2;
+
+
+.summary {
+    background-color: rgba(50, 19, 37, 1);
+    margin: 3em;
+    padding: 1em;
+    text-align: left;
+    font-size: 0.9em;
+    max-width: 220px;
+    max-height: 220px;
+}
 }
 .forcast {
     grid-column: 1/2;
@@ -152,25 +166,11 @@ footer p {
     color: #F3F6F7;
 }
 
-.hero-img {
-    display: none;
-}
-.hero-img-sm {
-    width: 100%;
-}
 
-.weather-summary {
-    display: none;
-}
 li {
     list-style-type: none;
 }
-.weather-summary-sm {
-    padding: 18px;
-    text-align: justify;
-    background-color: rgba(240, 240, 240, 0.8);
-    border: none;
-}
+
 .wSum {
     font-family: "Bebas Neue", "Arial Black", sans-serif;
     font-size: 20px;

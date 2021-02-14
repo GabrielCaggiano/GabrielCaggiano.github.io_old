@@ -36,31 +36,24 @@
       </header>
     <main>
         <div class="hero-div">
-            <img class="hero-img" src="images/lightning.jpeg" alt="lightning over the ocean">
-            <img class="hero-img-sm" src="images/lightning.jpeg" alt="lightning">
+            <picture class="week6hero">
+                <source media="(max-width: 600px)" srcset="images/week6_600.jpg">
+                <source media="(max-width: 800px)" srcset="images/week6_800.jpg">
+                <source media="(min-width: 950px)" srcset="images/week6_950.jpg">
+                <img src="images/week6.jpeg" alt="Week 6 Hero image">
+            </picture>
             
-            <ul class="weather-summary">
-                <li class="wSum"><b>Weather Summary:</b></li>
-                <li><b>Currently:</b> <i>Partly Cloudy</i></li>
-                <li><b>High:</b> <i>84&#176 F</i></li>
-                <li><b>Low:</b> <i>67&#176 F</i></li>
-                <li><b>Humidty:</b> <i>10%</i></li>
-                <li><b>Wind Speed:</b> <i>3mph</i></li>
-            </ul>
+            <div class="summary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="temp">50</span>°F</p>
+                <p>Wind Chill: <span id="windChill"></span>°F</p>
+                <p>Wind Speed: <span id="windSpeed">12</span> mph</p>
+                <p>Humidity: 30%</p>
+              </div>
 
         </div>
         <div class="grid-container">
             <h2>Preston, Idaho</h2>
-            <section class="weather-summary-sm">
-                <h4 class="wSum"><b>Weather Summary:</b></h4>
-                <ul>
-                    <li><b>Currently:</b> <i>Partly Cloudy</i></li>
-                    <li><b>High:</b> <i>84&#176 F</i></li>
-                    <li><b>Low:</b> <i>67&#176 F</i></li>
-                    <li><b>Humidty:</b> <i>10%</i></li>
-                    <li><b>Wind Speed:</b> <i>3mph</i></li>
-                </ul>
-            </section>
             <section>
                 <div class="forecast">
                     <h3>5-day Forecast</h3>
@@ -135,5 +128,14 @@
             <span id="currentDate"></span>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> 
+     WebFont.load ({
+      google: {
+        families: 
+        ['Rock Salt', 'Spartan', 'Roboto', 'Raleway', 'Bebas Neue']
+      }
+    }); 
+    </script>
 </body>
 </html>

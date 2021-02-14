@@ -34,17 +34,29 @@
     .banner-img-sm {
         display: none;
     }
-    .weather-summary-sm {
-        padding: 18px;
-        background-color: rgba(240, 240, 240, 0.8);
-        border: none;
+
+    .hero-div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    .weather-summary-sm ul {
-        columns: 2;
-        -webkit-columns: 2;
-        -moz-columns: 2;
-        margin-left: 20px;
+
+    .week6hero {
+        grid-column: 1 / -1;
+        grid-row: 1;
     }
+
+    .summary {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(50, 19, 37, .6);
+        margin: 3em;
+        padding: 1em;
+        text-align: left;
+        font-size: 0.9em;
+        max-width: 220px;
+    }
+
     .wSum {
         margin-left: 60px;
     }
