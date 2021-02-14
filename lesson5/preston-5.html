@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>WDD 230 Weather Website | Gabriel Caggiano | BYU-Idaho</title>
+    <meta name="description" content="This is the home page for Preston, Idaho.">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/currentDate.js" async></script>
+    <script src="js/hamburger.js" async></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-box">
+            <img class="weather-logo" src="images/lightningLoungeLogo.webp" alt="Lightning Lounge logo">
+            <section class="headings">
+                <h1>Lightning Lounge</h1>
+                <h2>Come ride the Lightning!</h2>
+            </section>
+        </div>
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-4.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+        <div class="hero-div">
+            <img class="hero-img" src="images/lightning.jpeg" alt="lightning over the ocean">
+            <img class="hero-img-sm" src="images/lightning.jpeg" alt="lightning">
+            
+            <ul class="weather-summary">
+                <li class="wSum"><b>Weather Summary:</b></li>
+                <li><b>Currently:</b> <i>Partly Cloudy</i></li>
+                <li><b>High:</b> <i>84&#176 F</i></li>
+                <li><b>Low:</b> <i>67&#176 F</i></li>
+                <li><b>Humidty:</b> <i>10%</i></li>
+                <li><b>Wind Speed:</b> <i>3mph</i></li>
+            </ul>
+
+        </div>
+        <div class="grid-container">
+            <h2>Preston, Idaho</h2>
+            <section class="weather-summary-sm">
+                <h4 class="wSum"><b>Weather Summary:</b></h4>
+                <ul>
+                    <li><b>Currently:</b> <i>Partly Cloudy</i></li>
+                    <li><b>High:</b> <i>84&#176 F</i></li>
+                    <li><b>Low:</b> <i>67&#176 F</i></li>
+                    <li><b>Humidty:</b> <i>10%</i></li>
+                    <li><b>Wind Speed:</b> <i>3mph</i></li>
+                </ul>
+            </section>
+            <section>
+                <div class="forecast">
+                    <h3>5-day Forecast</h3>
+                    <table>
+                        <tbody>
+                            <tr class="days">
+                                <td><b>Sat</b></td>
+                                <td><b>Sun</b></td>
+                                <td><b>Mon</b></td>
+                                <td><b>Tue</b></td>
+                                <td><b>Wed</b></td>
+                            </tr>
+                            <tr>
+                                <th><img src="images/partly-cloudy.png" alt="partly cloudy"></th>
+                                <th><img src="images/mostly-cloudy.png" alt="mostly cloudy"></th>
+                                <th><img src="images/snowy.png" alt="snowy"></th>
+                                <th><img src="images/snowy.png" alt="snowy"></th>
+                                <th><img src="images/mostly-cloudy.png" alt="mostly cloudy"></th>
+                            </tr>
+                            <tr>
+                                <td><b>H :</b> 34&#176 F</td>
+                                <td><b>H :</b> 36&#176 F</td>
+                                <td><b>H :</b> 36&#176 F</td>
+                                <td><b>H :</b> 38&#176 F</td>
+                                <td><b>H :</b> 32&#176 F</td>
+                            </tr>
+                            <tr>
+                                <td><b>L :</b> 27&#176 F</td>
+                                <td><b>L :</b> 25&#176 F</td>
+                                <td><b>L :</b> 18&#176 F</td>
+                                <td><b>L :</b> 22&#176 F</td>
+                                <td><b>L :</b> 14&#176 F</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <div class="article-info">
+                    <h3>Lightning Strike Starts Forest Fire</h3>
+                    <img class="article-img" src="images/wildfire.jpeg" alt="fruits and vegetables">
+                    <p class="article-p"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices eu
+                        lacus ac aliquam. Vivamus id erat massa. Ut pellentesque vel augue at luctus. Integer semper
+                        odio at magna semper consectetur. Ut rhoncus, mi sit amet sagittis pulvinar, est mauris
+                        tincidunt augue, in laoreet eros ligula sodales nibh. Integer id fringilla orci. Praesent ut
+                        sollicitudin tortor. Suspendisse fringilla orci id efficitur porttitor. In ut tortor sed lacus
+                        ornare lobortis id vitae mi. Aenean viverra mattis est, id viverra enim mollis efficitur.
+                        Vivamus vitae lacus sed diam pretium bibendum. Nullam nec ornare mi, quis cursus nibh. Proin id
+                        velit vitae ligula maximus eleifend. Mauris pretium rhoncus ante, sit amet laoreet mi vehicula
+                        a. Aliquam ac est fringilla, maximus risus vitae, fringilla mi. Aenean vel sapien ac massa porta
+                        volutpat.
+
+                        Donec blandit lorem libero, eu semper risus rutrum sed. Curabitur eleifend blandit tortor at
+                        sagittis. Duis eu magna eu lacus imperdiet malesuada. Nullam nulla leo, vulputate non rutrum in,
+                        hendrerit ut nulla. Proin ipsum est, accumsan eu commodo tincidunt, lacinia vitae ligula. Mauris
+                        fringilla id velit vel laoreet. Aliquam in nisl elementum, consectetur felis eget, volutpat
+                        ligula. Curabitur commodo, dolor eu aliquam ullamcorper, velit enim elementum nisi, sit amet
+                        ali</p>
+                </div>
+            </section>
+            <section>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; The Lightning Lounge | Gabriel Caggiano 
+        </p>
+        <div class="Date">
+            <span id="currentDate"></span>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@media only screen and (min-width: 37.5em) {
+
+    .weather-logo {
+        max-width: 80px;
+    }
+    nav button {
+        font-size: 1.8em;
+    }
+    nav ul {
+        font-size: 1.4em;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    .slogan {
+        font-size: 1em;
+    }
+    p { 
+        font-size: 16px;
+    }
+    .hero-box {
+        margin: 0 auto;
+    }
+    .banner-img {
+        display: block;
+        width: 100%;
+    }
+    .banner-img-sm {
+        display: none;
+    }
+    .weather-summary-sm {
+        padding: 18px;
+        background-color: rgba(240, 240, 240, 0.8);
+        border: none;
+    }
+    .weather-summary-sm ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        margin-left: 20px;
+    }
+    .wSum {
+        margin-left: 60px;
+    }
+    th img {
+        max-width: 75px;
+    }
+    td {
+        font-size: 16px;
+    }
+    .article-img {
+        float: right;
+        width: 90%;
+    }
+    .grid-container {
+        max-width: 80%;
+        margin: auto;
+    }
+    .contact-info img {
+        width: 36px;
+    }
+    footer {
+        max-width: 100%;
+        margin: auto;
+    }
+}
